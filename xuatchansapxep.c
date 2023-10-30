@@ -18,12 +18,14 @@ int main() {
 			}
 		}
 	}
+	// xuất ra số chẵn 
 	printf("\nOUTPUT:\n");
 	for(i=0; i<n; i++) {
 		if(a[i] % 2 ==0){
 			printf("\n%d",a[i]);
 		}
 	}
+	// xuat ra so lẻ
 	printf("\n----------------\n");
 	for(i=0; i<n; i++) {
 		if(a[i] % 2 !=0){
